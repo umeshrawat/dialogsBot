@@ -1,0 +1,11 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 8080
+logging:
+  level: DEBUG
+  loggers:
+    "io.dropwizard": DEBUG
+    com.marketbot: DEBUG
+  appenders:
+    - type: console
